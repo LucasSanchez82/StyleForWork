@@ -1,10 +1,13 @@
 @font-face {
     font-family: "Magnolia";
-    src: url("../font_magnolia/Magnolia\ Light.ttf") format("truetype");
+    src: url("fonts/Golden\ Stanbury.ttf") format("truetype");
 }
 
 body{
     background-color: rgb(67, 67, 173);
+    width: 98%;
+    margin: auto;
+    margin-bottom: 25px;
 }
 header{
     width: 100%;
@@ -16,25 +19,28 @@ header{
 }
 main, section{
     margin: auto;
-    padding:30px;
     background-color: #fff;
-    
     display: flex;
     flex-flow: column;
     align-content: center;
 }
+section{
+    padding: 15px;
+    padding-bottom: 0px;
+    background-color: #ffffff00;
+}
 main{
     box-sizing: border-box;
-    width: 85%;
-    border-radius: 10px;
-
+    width: 90%;
+    border-radius: 15px;
 }
 header, h1{
     font-size: 100px;
+    text-align: center;
 }
 h1, p {
     font-family: Magnolia;
-    font-size: 50px;
+    font-size: 70px;
     margin: auto;
     margin-bottom: 60px;
     border-bottom: 6px solid green;
